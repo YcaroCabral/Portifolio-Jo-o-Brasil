@@ -5,6 +5,7 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
   return {
+    base: '/Portifolio-Jo-o-Brasil/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

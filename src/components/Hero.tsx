@@ -69,7 +69,7 @@ export default function Hero() {
         >
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border-[12px] border-white">
             <img
-              src="/images/100-800x1000.jpg"
+              src="./images/100-800x1000.jpg"
               alt="João Brasil"
               className="w-full h-full object-cover"
             />

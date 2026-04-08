@@ -47,7 +47,7 @@ export default function About() {
           >
             <div className="aspect-square bg-premium-gray rounded-3xl overflow-hidden relative group">
               <img
-                src="/images/930-800x800.jpg"
+                src="./images/930-800x800.jpg"
                 alt="João Brasil em atuação"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />

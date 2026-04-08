@@ -34,21 +34,23 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <motion.button
+            <motion.a
+              href="#projetos"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="bg-br-blue text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-br-blue/20 flex items-center justify-center gap-2 group"
+              className="bg-br-blue text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-br-blue/20 flex items-center justify-center gap-2 group no-underline"
             >
               Conheça a atuação
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href="#projetos"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 transition-colors"
+              className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-50 transition-colors no-underline"
             >
               Ver Projetos
-            </motion.button>
+            </motion.a>
           </div>
 
           <div className="mt-12 flex items-center gap-6 grayscale opacity-50">

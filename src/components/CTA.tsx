@@ -22,22 +22,28 @@ export default function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <motion.button
+            <motion.a
+              href="https://wa.me/5524993275143?text=Olá! Gostaria de saber mais sobre a criação de uma página de transparência."
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-full sm:w-auto bg-white text-br-blue px-10 py-5 rounded-full font-bold text-xl shadow-2xl flex items-center justify-center gap-3 group"
+              className="w-full sm:w-auto bg-white text-br-blue px-10 py-5 rounded-full font-bold text-xl shadow-2xl flex items-center justify-center gap-3 group no-underline"
             >
               Quero uma página assim
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href="https://wa.me/5524993275143?text=Olá! Gostaria de solicitar uma demonstração da plataforma de transparência."
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-full sm:w-auto bg-br-blue border-2 border-white/30 text-white px-10 py-5 rounded-full font-bold text-xl hover:bg-white/10 transition-all flex items-center justify-center gap-3"
+              className="w-full sm:w-auto bg-br-blue border-2 border-white/30 text-white px-10 py-5 rounded-full font-bold text-xl hover:bg-white/10 transition-all flex items-center justify-center gap-3 no-underline"
             >
               Solicitar Demonstração
               <Mail size={20} />
-            </motion.button>
+            </motion.a>
           </div>
 
           <div className="mt-16 flex items-center justify-center gap-8 text-white/50 text-sm font-medium">

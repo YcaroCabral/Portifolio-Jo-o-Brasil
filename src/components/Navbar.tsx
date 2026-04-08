@@ -55,15 +55,18 @@ export default function Navbar() {
               {link.name}
             </motion.a>
           ))}
-          <motion.button
+          <motion.a
+            href="https://wa.me/5524993275143?text=Olá! Gostaria de falar com a equipe sobre a plataforma de transparência."
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-br-blue text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-br-blue/20 hover:bg-br-blue/90 transition-all"
+            className="bg-br-blue text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-br-blue/20 hover:bg-br-blue/90 transition-all no-underline"
           >
             Fale com a equipe
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Toggle */}
@@ -89,9 +92,14 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="bg-br-blue text-white px-6 py-3 rounded-xl font-semibold">
+          <a 
+            href="https://wa.me/5524993275143?text=Olá! Gostaria de falar com a equipe sobre a plataforma de transparência."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-br-blue text-white px-6 py-3 rounded-xl font-semibold text-center no-underline"
+          >
             Fale com a equipe
-          </button>
+          </a>
         </motion.div>
       )}
     </nav>
